@@ -10,3 +10,8 @@ function increment() {
 function logger() {
     console.log("Just so you know, the counter is currently at " + count)
 }
+
+function reset() {
+    count = 0
+    countEl.innerText = count
+}
