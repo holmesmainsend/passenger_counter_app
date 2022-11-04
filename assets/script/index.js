@@ -8,5 +8,5 @@ function increment() {
 }
 
 function logger() {
-    console.log(count)
+    console.log("Just so you know, the counter is currently at " + count)
 }
